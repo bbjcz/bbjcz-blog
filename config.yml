@@ -1,6 +1,6 @@
 baseURL: https://blog.bbjc.cc/
 languageCode: zh-cn
-title: bbjcz's blogs
+title: bbjcz's  blogs
 theme: "PaperMod"
 params:
   ShowCodeCopyButtons: true
