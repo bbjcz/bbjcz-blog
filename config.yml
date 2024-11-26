@@ -1,0 +1,8 @@
+baseURL: https://b.bbjc.cc/public/
+languageCode: zh-cn
+title: bbjcz's blogs
+theme: "PaperMod"
+menu:
+  main:
+  - name: B站主页
+    url: https://space.bilibili.com/352110790
