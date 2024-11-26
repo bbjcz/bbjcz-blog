@@ -3,9 +3,6 @@ languageCode: zh-cn
 title: bbjcz's blogs
 theme: "PaperMod"
 params:
-  homeInfoParams:
-    Title: bbjcz的博客
-    Content: 记录一些东西....
   ShowCodeCopyButtons: true
 menu:
   main:
