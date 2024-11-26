@@ -7,24 +7,27 @@ draft: false
 
 使用frp需要有一台拥有公网ip的服务器运行frp服务端。
 
-frp github仓库地址：https://github.com/fatedier/frp/
+frp github仓库地址：<https://github.com/fatedier/frp/>
 
-frp下载地址：https://github.com/fatedier/frp/releases/
+frp下载地址：<https://github.com/fatedier/frp/releases/>
 
-以linux x86_64机型为例：
+以linux x86_64机型为例
 ---
 
 首先，防火墙开放7000、7500端口，以及所有用于端口映射的端口
 
 下载解压frp（客户端服务端相同）
+
 ```shell
 wget https://github.com/fatedier/frp/releases/download/v0.48.0/frp_0.48.0_linux_amd64.tar.gz
 tar -zxvf frp_0.48.0_linux_amd64.tar.gz
 cd ./frp_0.48.0_linux_amd64
 ```
+
 ---
 修改frps.ini文件
-```
+
+```ini
 [common]
 bind_port = 7000
 #管理页面端口与用户名密码设置，可以没有用户名密码，也可以不开启管理页面，不影响frp服务端运行
@@ -34,18 +37,24 @@ dashboard_pwd = password
 #设置token以验证frp客户端身份，token服务端须与客户端一致，也可以不设置token
 token = 12345678
 ```
+
 ---
 运行frp服务端
+
 ```shell
 ./frps -c ./frps.ini
 ```
+
 或在后台运行frp服务端
+
 ```shell
 nohup ./frps -c ./frps.ini &
 ```
+
 ---
 设置客户端，修改frpc.ini文件
-```
+
+```ini
 [common]
 #填入frp服务器的ip地址或域名
 server_addr = x.x.x.x
@@ -65,15 +74,20 @@ type = http
 local_port = 80
 custom_domains = example.com
 ```
+
 ---
 运行frp客户端
+
 ```shell
 ./frpc -c ./frpc.ini
 ```
+
 或在后台运行frp客户端
+
 ```shell
 nohup ./frpc -c ./frpc.ini &
 ```
+
 ---
 在 x.x.x.x:7500 可登入管理页面
 
