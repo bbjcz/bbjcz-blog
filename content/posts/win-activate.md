@@ -1,5 +1,5 @@
 ---
-title: "Win Activate"
+title: "Win11快速激活"
 date: 2024-11-26T19:43:49+08:00
 draft: false
 ---
