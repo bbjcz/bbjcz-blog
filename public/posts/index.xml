@@ -8,7 +8,7 @@
     <language>zh-cn</language>
     <lastBuildDate>Tue, 26 Nov 2024 20:04:02 +0800</lastBuildDate><atom:link href="https://blog.bbjc.cc/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>C&#43;&#43;测试代码运行时间</title>
+      <title>Cpp Timer</title>
       <link>https://blog.bbjc.cc/posts/cpp-timer/</link>
       <pubDate>Tue, 26 Nov 2024 20:04:02 +0800</pubDate>
       
@@ -18,7 +18,7 @@ Timer t; for (volatile int i = 0; i &amp;lt; int(1e9); i++); cout &amp;lt;&amp;l
     </item>
     
     <item>
-      <title>Win11快速激活</title>
+      <title>Win Activate</title>
       <link>https://blog.bbjc.cc/posts/win-activate/</link>
       <pubDate>Tue, 26 Nov 2024 19:43:49 +0800</pubDate>
       
