@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://b.bbjc.cc/public/</loc>
+    <loc>https://blog.bbjc.cc/</loc>
     <lastmod>2023-04-02T12:54:56+08:00</lastmod>
   </url><url>
-    <loc>https://b.bbjc.cc/public/posts/frp/</loc>
+    <loc>https://blog.bbjc.cc/posts/frp/</loc>
     <lastmod>2023-04-02T12:54:56+08:00</lastmod>
   </url><url>
-    <loc>https://b.bbjc.cc/public/posts/</loc>
+    <loc>https://blog.bbjc.cc/posts/</loc>
     <lastmod>2023-04-02T12:54:56+08:00</lastmod>
   </url><url>
-    <loc>https://b.bbjc.cc/public/categories/</loc>
+    <loc>https://blog.bbjc.cc/categories/</loc>
   </url><url>
-    <loc>https://b.bbjc.cc/public/tags/</loc>
+    <loc>https://blog.bbjc.cc/tags/</loc>
   </url>
 </urlset>

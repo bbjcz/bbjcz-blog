@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>bbjcz&#39;s blogs</title>
-    <link>https://b.bbjc.cc/public/</link>
+    <link>https://blog.bbjc.cc/</link>
     <description>Recent content on bbjcz&#39;s blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 02 Apr 2023 12:54:56 +0800</lastBuildDate><atom:link href="https://b.bbjc.cc/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 12:54:56 +0800</lastBuildDate><atom:link href="https://blog.bbjc.cc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>frp内网穿透工具服务端与客户端配置</title>
-      <link>https://b.bbjc.cc/public/posts/frp/</link>
+      <link>https://blog.bbjc.cc/posts/frp/</link>
       <pubDate>Sun, 02 Apr 2023 12:54:56 +0800</pubDate>
       
-      <guid>https://b.bbjc.cc/public/posts/frp/</guid>
+      <guid>https://blog.bbjc.cc/posts/frp/</guid>
       <description>在没有公网ip的情况下，访问内网设备需要通过内网穿透，frp是一种常用的方法。
 使用frp需要有一台拥有公网ip的服务器运行frp服务端。
 frp github仓库地址：https://github.com/fatedier/frp/
