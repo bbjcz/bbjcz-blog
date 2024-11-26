@@ -2,6 +2,8 @@ baseURL: https://blog.bbjc.cc/
 languageCode: zh-cn
 title: bbjcz's blogs
 theme: "PaperMod"
+params:
+  ShowCodeCopyButtons: true
 menu:
   main:
   - name: B站主页
